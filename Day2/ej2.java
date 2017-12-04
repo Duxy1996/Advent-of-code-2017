@@ -1,5 +1,5 @@
 import java.io.*;
-class HelloWorld {
+class ej2 {
     public static void main(String[] args) {  
         BufferedReader br = null;
         try {
@@ -11,15 +11,15 @@ class HelloWorld {
                 int max = Integer.MIN_VALUE;
                 int min = Integer.MAX_VALUE;
                 for(String number : parts){
-                    int nu_in = Integer.parseInt(number);
-                    if(nu_in > max){
-                       max = nu_in;
+                    int divisor = Integer.parseInt(number);
+                    for(String number_div : parts){
+                        int dividendo = Integer.parseInt(number_div);
+                        if ((divisor % dividendo == 0)&&(dividendo != divisor)){
+                            System.out.println(divisor/dividendo);
+                            suma = suma + divisor/dividendo;
+                        }
                     }
-                    if(nu_in < min){
-                       min = nu_in;
-                    }
-                }                
-                suma = suma + (max - min);
+                }
             }
             System.out.print("The result is: " + suma);
         } catch (IOException e) {
