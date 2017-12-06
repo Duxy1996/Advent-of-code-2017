@@ -7,9 +7,9 @@ I'm trying to do each kata in a diffrent type of code.
 
 - [x] Java
 - [x] Python
-- [] Ruby
-- [] Mathematica
-- [] Matlab
+- [ ] Ruby
+- [ ] Mathematica
+- [ ] Matlab
 - [x] Octave
 - [x] Javascript
 
