@@ -5,11 +5,11 @@ Some Christmas' katas
 
 I'm trying to do each kata in a diffrent type of code.
 
-[x] Java
-[x] Python
-[] Ruby
-[] Mathematica
-[] Matlab
-[x] Octave
-[] Javascript
+- [x] Java
+- [x] Python
+- [] Ruby
+- [] Mathematica
+- [] Matlab
+- [x] Octave
+- [x] Javascript
 
