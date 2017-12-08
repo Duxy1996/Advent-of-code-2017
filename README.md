@@ -12,4 +12,7 @@ I'm trying to do each kata in a diffrent type of code.
 - [ ] Matlab
 - [x] Octave
 - [x] Javascript
+- [ ] C++
+- [ ] C#
+- [ ] Bash
 
