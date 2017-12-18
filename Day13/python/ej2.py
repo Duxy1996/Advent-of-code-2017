@@ -40,11 +40,11 @@ for play in range(2000000000):
   if(len(respuesta) == len(respuesta[len(respuesta)-1])):
     for i in range(len(respuesta)):
       resi = resi & respuesta[i][i]
+      if resi == False:
+        break
     if resi:
       print("I have the solution: "+str(1+index_mayor-len(laser_security)))
       break
   index_mayor += 1
 
-#for res in respuesta:
-  #print(res)
 
